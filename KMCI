@@ -12,3 +12,8 @@ The first test involved using 70 years worth of NCAR/NCEP Reanalysis data for KM
 %than just giving it more data. Nevertheless, broad oscillation patterns
 %are repeated and comparable to the original.
 
+%2/18/2024: Memory issues with MATLAB continue to hinder large-scale Machine Learning testing. 
+I decided to exchange spatial size for time range and used 70 years of data to create a model to predict omega values for KMCI (Kansas City, MO).
+The first draft shows acceptable magnitudes but specifics are too off to be reliable.
+The 10-year plot shows the model can capture broad low-frequency patterns but the 1-year plot shows the differences more clearly.
+The next trial will attempt to incorporate the same data from the levels just above and below the 600mb level.
