@@ -1,0 +1,14 @@
+The first test involved using 70 years worth of NCAR/NCEP Reanalysis data for KMCI airport (Kansas City, MO). Memory issues plague large scale tests so these first trials are scaled down to one grid to maximize temporal coverage.
+
+%2/13/2024: The one grid sample is for KMCI (Kansas City, MO). The first
+%trial used 10 years worth of data. The resulting ML output were reasonable
+%values with similar data patterns but overall different specifics which
+%make it a bad model. If you run the model again, you get the exact same
+%results which is somewhat comforting. The next trial will attempt to
+%expand the years worth of data but I anticipating memory issues. I will
+%reach out to Prof. Chagnon on any advice to get around this.
+%A trial of 70 years worth of KMCI data revealed no improvement to data
+%despite using all variables so there must be more to improving the model
+%than just giving it more data. Nevertheless, broad oscillation patterns
+%are repeated and comparable to the original
+
